@@ -527,7 +527,7 @@
   }
   
   .section-title {
-    text-align: center;
+    text-align: right;
     padding-bottom: 30px;
   }
   
@@ -539,6 +539,7 @@
     padding-bottom: 20px;
     position: relative;
     color: #9e7e26;
+    text-align: right;
   }
   
   .section-title h2::before {
@@ -565,7 +566,32 @@
   
   .section-title p {
     margin-bottom: 0;
+    text-align: right;
   }
+
+  .section-title .btn-learn-more {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 4px;
+    transition: 0.3s;
+    line-height: 1;
+    color: #f0ca64;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    margin-top: 6px;
+    border: 2px solid #e4ba47;
+  }
+  
+  .section-title .btn-learn-more:hover {
+    background: #f0d374;
+    color: #fff;
+    text-decoration: none;
+  }
+  
   
   /*--------------------------------------------------------------
   # Cliens
